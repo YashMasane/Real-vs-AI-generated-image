@@ -3,9 +3,11 @@ import tensorflow as tf
 from PIL import Image
 import numpy as np
 from tensorflow.keras.models import load_model
+import matplotlib.pyplot as plt
 
 # preprocessing image for prediction 
 def preprocess_image(image):
+    plt.imshow(image)
     # Convert BytesIO to numpy array
     img_array = np.array(Image.open(image).convert("RGB"))
     # Resize the image
