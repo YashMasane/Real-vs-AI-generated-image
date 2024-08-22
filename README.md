@@ -2,8 +2,8 @@
 
 
 <p align="center">
-  <img src="/img/real_elephent_demo.png" alt="Real Image" width="400" />
-  <img src="/img/ai_dog_demo.png" alt="AI generated Image" width="400" style="object-fit:contain;/>
+  <img src="/img/real_elephent_demo.png" alt="Real Image" height="300" style="vertical-align:middle;"/>
+  <img src="/img/ai_dog_demo.png" alt="AI generated Image" height="300" style="vertical-align:middle;"/>
 </p>
 
 ## Project Overview 🌟
