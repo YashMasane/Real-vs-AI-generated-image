@@ -1,6 +1,9 @@
 # AI vs Real Image Classification 🖼️🤖
 
 
+![Real Image](/img/real_elephent_demo.png) ![AI generated Image](/img/ai_dog_demo.png)
+
+
 ## Project Overview 🌟
 
 This project aims to classify images as either AI-generated or real. The quality of AI-generated images has rapidly increased, leading to concerns about authenticity and trustworthiness. The project leverages convolutional neural networks (CNNs) for feature extraction and classification, with additional components such as data augmentation and regularization to enhance performance.
@@ -68,11 +71,7 @@ You can access and download the dataset from the link below:
    - **Test Precision:** `0.9449597001075745`  
    - **Test Recall:** `0.9366506934165955`
    
-![Accuracy Plot](/img/trf_acc.png)
-
-![Loss Plot](/img/trf_loss.png)
-
-
+![Accuracy Plot](/img/trf_acc.png) ![Loss Plot](/img/trf_loss.png)
 
 6. **Deployment**:
    - The trained model is deployed in a production environment using a Streamlit application. The app provides an interface for users to upload images and classify them as AI-generated or real.
