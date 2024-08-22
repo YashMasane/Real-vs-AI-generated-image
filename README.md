@@ -68,9 +68,9 @@ You can access and download the dataset from the link below:
    - **Test Precision:** `0.9449597001075745`  
    - **Test Recall:** `0.9366506934165955`
    
-![Alt text](img/trf_acc)
+![Accuracy Plot](/img/trf_acc)
 
-![Alt text](img/trf_loss)
+![Loss Plot](/img/trf_loss)
 
 
 
