@@ -1,8 +1,10 @@
 # AI vs Real Image Classification 🖼️🤖
 
 
-![Real Image](/img/real_elephent_demo.png) ![AI generated Image](/img/ai_dog_demo.png)
-
+<p align="center">
+  <img src="/img/real_elephent_demo.png" alt="Real Image" width="400"/>
+  <img src="/img/ai_dog_demo.png" alt="AI generated Image" width="400"/>
+</p>
 
 ## Project Overview 🌟
 
@@ -71,7 +73,10 @@ You can access and download the dataset from the link below:
    - **Test Precision:** `0.9449597001075745`  
    - **Test Recall:** `0.9366506934165955`
    
-![Accuracy Plot](/img/trf_acc.png) ![Loss Plot](/img/trf_loss.png)
+<p align="center">
+  <img src="/img/trf_acc.png" alt="Real Image" width="400"/>
+  <img src="/img/trf_loss.png" alt="AI generated Image" width="400"/>
+</p>
 
 6. **Deployment**:
    - The trained model is deployed in a production environment using a Streamlit application. The app provides an interface for users to upload images and classify them as AI-generated or real.
