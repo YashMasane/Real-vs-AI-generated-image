@@ -13,7 +13,7 @@ This project aims to classify images as either AI-generated or real. The quality
  
  ***Try application [here](https://ai-generated-image-detector.onrender.com/)***.
  
- The app allows you to upload images and classify them as either AI-generated or real.
+ The app allows you to upload an image and tag it as either AI-generated or real.
 
 
 ### Usefulness of the Project 📈
@@ -126,12 +126,14 @@ ai-vs-real-image-classification/
 │   ├── app.py               # user app
 │   ├── ui.py                # user interface
 │   └── my_model.h5          # Trained model weights
-|
-|                                    
+│
+│                                    
 ├── data/                    # Directory for dataset
 │   ├── train/               # Training images       
 │   └── test/                # Test images
-|
+│
+├── img                      # images for testing app
+│
 ├── ai_real.ipynb            # ipynb file for model
 ├── requirements.txt         # List of required packages
 └── README.md                # Project documentation
@@ -149,6 +151,3 @@ Feel free to fork the repository and submit pull requests. For major changes, pl
 - **[Keras Applications](https://keras.io/api/applications/)**
 - **Streamlit for creating interactive web applications**
 - **TensorFlow for providing robust tools for deep learning**
-
-   
-
