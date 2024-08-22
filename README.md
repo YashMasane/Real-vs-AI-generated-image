@@ -74,8 +74,8 @@ You can access and download the dataset from the link below:
    - **Test Recall:** `0.9366506934165955`
    
 <p align="center">
-  <img src="/img/trf_acc.png" alt="Real Image" width="400"/>
-  <img src="/img/trf_loss.png" alt="AI generated Image" width="400"/>
+  <img src="/img/trf_acc.png" alt="Real Image" width="400" style="object-fit:contain;/>
+  <img src="/img/trf_loss.png" alt="AI generated Image" width="400" style="object-fit:contain;/>
 </p>
 
 6. **Deployment**:
